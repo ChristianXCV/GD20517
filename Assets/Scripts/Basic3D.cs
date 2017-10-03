@@ -11,7 +11,7 @@ public class Basic3D : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		movementAmount = new Vector3 (1, -3, -1);
-
+        //Hi
 		restart = CUBO.transform.position;
 	}
 

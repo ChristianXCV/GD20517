@@ -238,7 +238,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1513714947}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -13.4, y: 25.5, z: 23.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 1652767310}
   - component: {fileID: 1652767309}
   - component: {fileID: 1652767308}
+  - component: {fileID: 1652767313}
   m_Layer: 0
   m_Name: Batman
   m_TagString: Untagged
@@ -343,6 +344,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1652767313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652767307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247fa358e2389b04fa4d6988090d47d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Doge: 50
 --- !u!1 &1856991181
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +457,6 @@ GameObject:
   - component: {fileID: 2036970848}
   - component: {fileID: 2036970847}
   - component: {fileID: 2036970846}
-  - component: {fileID: 2036970845}
   - component: {fileID: 2036970851}
   m_Layer: 0
   m_Name: Doge
@@ -453,18 +465,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2036970845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2036970844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 247fa358e2389b04fa4d6988090d47d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Doge: 5
 --- !u!54 &2036970846
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -555,5 +555,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f175bef19410c9498c4a9f9ece4656c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2036970850}
-  thrust: 10
+  target: {fileID: 1652767312}
+  thrust: 30

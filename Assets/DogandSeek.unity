@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 247fa358e2389b04fa4d6988090d47d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Doge: 50
+  Doge: 10
 --- !u!1 &1856991181
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,4 +556,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1652767312}
-  thrust: 30
+  thrust: 5

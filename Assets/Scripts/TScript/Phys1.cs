@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Physics : MonoBehaviour {
+public class Phys1 : MonoBehaviour {
 
     Rigidbody rb;
     public float Doge;
